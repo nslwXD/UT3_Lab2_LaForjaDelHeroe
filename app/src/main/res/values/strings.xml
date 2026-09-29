@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Forja del Heroe</string>
+
+    <string name="titulo">Creador de personajes</string>
+
+    <string name="nombre_warrior">Escribe el nombre del guerrero</string>
+
+    <string name="texto_raza">Raza</string>
+
+    <string name="texto_faccion">Faccion</string>
+
+    <string name="comunidad">Comunidad del Anillo</string>
+    <string name="mordor">Huestes de Mordor</string>
+
+    <string name="texto_habilidades">Habilidades especiales</string>
+
+    <string name="sigilo">Sigilo</string>
+    <string name="combate">Combate con Espada</string>
+
+    <string name="registrar">Registrar personaje</string>
+
+    <string-array name="lista_razas">
+        <item>Hobbit</item>
+        <item>Elfo</item>
+        <item>Enano</item>
+        <item>Humano</item>
+    </string-array>
+
+</resources>

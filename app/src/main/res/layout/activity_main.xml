@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- titulo de la pantalla -->
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <!-- aqui escribimos el nombre -->
+        <EditText
+            android:id="@+id/nombreGuerrero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre_warrior"
+            android:inputType="textPersonName">
+
+            <!-- ponemos el cursor directamente en este campo -->
+            <requestFocus />
+
+        </EditText>
+
+        <!-- seleccion de la raza -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_raza"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <Spinner
+            android:id="@+id/selectorRaza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/lista_razas" />
+
+        <!-- seleccion de la faccion -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_faccion"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <RadioGroup
+            android:id="@+id/grupoFaccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/faccionComunidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/comunidad" />
+
+            <RadioButton
+                android:id="@+id/faccionMordor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mordor" />
+
+        </RadioGroup>
+
+        <!-- habilidades que puede tener el personaje -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_habilidades"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <CheckBox
+            android:id="@+id/habilidadSigilo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sigilo" />
+
+        <CheckBox
+            android:id="@+id/habilidadEspada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/combate" />
+
+        <!-- boton para registrar los datos -->
+        <ImageButton
+            android:id="@+id/botonForjar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/espada"
+            android:contentDescription="@string/registrar" />
+
+    </LinearLayout>
+
+</ScrollView>

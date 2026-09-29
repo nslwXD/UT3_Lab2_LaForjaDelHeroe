@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- hecho por chatgpt -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- hoja de la espada -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M22,4 L26,4 L26,30 L22,30 Z" />
+
+    <!-- punta de la espada -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M22,4 L26,4 L24,1 Z" />
+
+    <!-- guardia -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M10,30 L38,30 L35,34 L13,34 Z" />
+
+    <!-- mango -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M21,34 L27,34 L27,42 L21,42 Z" />
+
+    <!-- pomo -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M18,42 L30,42 L27,46 L21,46 Z" />
+
+</vector>
